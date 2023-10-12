@@ -1,0 +1,122 @@
+       table {
+            border-collapse: collapse;
+            width: 100px; 
+            margin: 0 auto;
+            font-size: 14px; 
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            text-align: center;
+            padding: 14px; 
+			background-color: #ffffff;
+        }
+
+        th {
+            background-color: #dfe3ee;
+        }
+		
+		body{
+			background-color:  	#3b5998;
+		}
+		
+		#title {
+			background-color: #dfe3ee;
+			font-family: Verdana;
+			padding: 20px;
+			margin: 40px;
+			margin-left: 60px;
+			display: inline-block;
+			vertical-align: top;
+			border-radius: 5px;
+		}
+		
+		#calendar {
+			margin-left: 250px;
+			margin-top: 30px;
+			padding: 10px;
+			vertical-align: top;
+			display: inline-block;
+		}
+		
+		#clock{
+			font-size: 30px;
+			margin-left: 1042px;
+			margin-top: -30px;
+			padding: 10px;
+			vertical-align: top;
+			display: inline-block;
+			background-color: #dfe3ee;
+			border-radius: 5px;
+			transition: transform 250ms;
+		}
+		
+		#skills {
+			border-radius: 5px;
+			background-color: #f7f7f7;
+			padding: 20px;
+			margin: 30px;
+			margin-left: 128px;
+			display: inline-block;
+			width: 400px; 
+			margin-top: -34px;
+		}
+
+		.skill {
+			margin-bottom: 10px;
+		}
+
+		.skill-label {
+			font-weight: bold;
+		}
+
+		.skill-bar {
+			background-color: #ddd;
+			height: 20px;
+			border-radius: 5px;
+		}
+
+		.skill-progress {
+			height: 100%;
+			border-radius: 5px;
+			background-color: #3b5998; 
+		}
+		
+		#info {
+			margin-top: 80px;
+			vertical-align: top;
+			margin-left: 180px;
+			display: inline-block;
+			text-align: center;
+			background-color: #ced6e7;
+			padding: 30px;
+			width: 450px;
+			font-family: Verdana;
+			border-radius: 5px;
+		}
+		
+		#switch {
+			background-color: #8b9dc3;
+			border-radius: 5px;
+			padding: 1px;
+			width: 90px;
+			text-align: center;
+			margin-left: 1163px;
+			margin-top: -54px;
+			transition: transform 250ms;
+		}
+		
+		#switch:hover {
+			transform: translateY(-10px);
+		}
+		
+		#clock:hover {
+			transform: translateY(-10px);
+		}
+		
+		a {
+			text-decoration: none;
+			color: black;
+			font-family: Verdana;
+			
+		}
